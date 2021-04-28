@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+body {
+	margin: 0;
+}
+
+
+a:LINK, a:ACTIVE, a:VISITED {
+	color: blue;
+	font-size: 20px; 
+	text-decoration: none;
+}
+a:HOVER {
+	color: green;
+}
+.vidu{
+	width: 250px;
+	padding: 5px;
+	border: 1px solid black;
+}
+.vidu:HOVER{
+	border: 1px solid red;
+}
+.vidu:FOCUS{
+	border: 1px solid green;
+}
